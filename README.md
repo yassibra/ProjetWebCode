@@ -12,7 +12,9 @@ Module Connexion | Module Administrateur | Creer et modifier des questions | Sau
 
 Avant tout, il vous faudra installer Wamp/Xampp/Lamp pour pouvoir utiliser notre application qui fait appelle à une base de données SQL.
 
-Effectuez la commande suivante dans le dossier www de Wamp/Xampp/Lamp:
+Entrez dans le dossier  Wamp/Xampp/Lamp et effectuez les commandes suivantes.
+
+``` cd www ```
 
 ```git clone url```
 
