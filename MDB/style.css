@@ -1,0 +1,83 @@
+*{
+	font-family:arial;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+h2{
+	width:960px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.nom, .message, .submit{
+	width:960px;
+	padding:5px;
+	margin-bottom: 5px;
+	border: 1px solid #AAA;
+	height: 35px;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.nom:focus, .message:focus, .submit:focus{
+	box-shadow: 5px 5px 12px lightblue;
+}
+
+.message{
+	height: 50px;
+}
+
+.submit{
+	background-color: #bdc3c7;
+	color:#111;
+}
+
+.return{
+	display: none;
+}
+
+.return span{
+	display: block;
+	width:960px;
+	padding:5px;
+	text-align: center;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	color:#FFF;
+}
+
+.return .error{
+	background-color: #e74c3c;
+}
+
+.return .success{
+	background-color: #27ae60;
+}
+
+.afficher h4{
+	margin-bottom: 0px;
+	margin-top:0;
+}
+
+.afficher p{
+	margin-top:2px;
+}
+
+.afficher{
+	width: 960px;
+	padding:10px;
+	border:1px solid #666;
+	overflow-y:scroll;
+	height: 200px;
+}
+
+.form{
+	position:absolute;
+	bottom:0px;
+  right:25%;
+  left:25%;
+}
+
